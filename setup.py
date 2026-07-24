@@ -10,10 +10,6 @@ import os
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open("requirements.txt", "r", encoding="utf-8") as f:
-    requirements = f.read().splitlines()
-    requirements = [r for r in requirements if r and not r.startswith("#")]
-
 setup(
     name="rusmenu",
     version="4.0.0",
@@ -27,6 +23,7 @@ setup(
         "Bug Reports": "https://github.com/serskvortsov386/rusmenu/issues",
         "Source": "https://github.com/serskvortsov386/rusmenu",
         "Documentation": "https://github.com/serskvortsov386/rusmenu#readme",
+        "PyPI": "https://pypi.org/project/rusmenu/",
     },
     packages=find_packages(),
     classifiers=[
