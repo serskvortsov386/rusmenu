@@ -1,9 +1,3 @@
-
----
-
-## Шаг 3: Файл `setup.py`
-
-```python
 """
 Setup file for rusmenu library
 Автор: Скворцов Сергей Александрович (Чебоксары)
@@ -51,9 +45,7 @@ setup(
         "Intended Audience :: Developers",
     ],
     python_requires=">=3.7",
-    install_requires=[
-        # Базовые зависимости не требуются, все фреймворки опциональны
-    ],
+    install_requires=[],
     extras_require={
         "qt": ["PyQt5>=5.15.0"],
         "qt6": ["PySide6>=6.0.0"],
