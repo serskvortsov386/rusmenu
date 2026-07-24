@@ -4,6 +4,8 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-Commercial%20with%20Free%20Use-orange)](LICENSE)
+[![PyPI version](https://badge.fury.io/py/rusmenu.svg)](https://badge.fury.io/py/rusmenu)
+[![Downloads](https://pepy.tech/badge/rusmenu)](https://pepy.tech/project/rusmenu)
 
 ## ✨ Особенности
 
@@ -131,31 +133,23 @@ menu.add_command("🔍 Поиск", custom_action, shortcut="Ctrl+Shift+F")
 
 📜 Лицензия
 Эта библиотека распространяется по двойной лицензии:
-
 Бесплатно для некоммерческого использования, образовательных целей и открытых проектов
-
 Коммерческое использование требует покупки лицензии
-
 Подробнее: LICENSE
 
 🤝 Как поддержать проект
 ⭐ Поставьте звезду на GitHub
-
 🐛 Сообщайте об ошибках в Issues
-
 💡 Предлагайте новые идеи
-
 📝 Пишите документацию и примеры
 
 📧 Контакты
 Автор: Скворцов Сергей Александрович
-
 Email: ser.skvortsov.386@gmail.com
-
 Город: Чебоксары
+GitHub: https://github.com/serskvortsov386
 
 🙏 Благодарности
 Всем пользователям, которые помогают тестировать библиотеку
-
 Сообществу Python за вдохновение. 
 
