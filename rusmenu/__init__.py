@@ -4,6 +4,7 @@ RusMenu - Русское контекстное меню для Python GUI
 """
 
 from .core import RusContextMenu, RusMenuConfig
+from .apply import apply_rus_menu
 
 # Импортируем бэкенды только если они доступны
 try:
@@ -33,4 +34,5 @@ __license__ = "Proprietary - Commercial with Free Use"
 __all__ = [
     "RusContextMenu",
     "RusMenuConfig",
+    "apply_rus_menu",
 ]
