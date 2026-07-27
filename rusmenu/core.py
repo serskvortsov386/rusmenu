@@ -81,4 +81,4 @@ class RusContextMenu:
 
 
 # Экспортируем утилиты
-__all__ = ["RusContextMenu", "RusMenuConfig"]
+__all__ = ["RusContextMenu", "RusMenuConfig", "apply_rus_menu"]
