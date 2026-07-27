@@ -12,7 +12,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="rusmenu",
-    version="4.0.0",
+    version="4.0.1",
     author="Скворцов Сергей Александрович",
     author_email="ser.skvortsov.386@gmail.com",
     description="Русское контекстное меню для Python GUI (Tkinter, PyQt5, wxPython, Dear PyGui)",
